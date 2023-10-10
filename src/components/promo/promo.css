@@ -11,9 +11,6 @@
 	padding-left: 120px;
 }
 
-.promo__text {
-}
-
 .promo__title {
 	font-size: 96px;
 	font-weight: 900;
@@ -51,6 +48,7 @@
 	transform: translateY(-50%);
 	width: 190px;
 	height: 32px;
+	cursor: default;
 	background-repeat: no-repeat;
 	background-image: url("../../img/icons/decor-yellow.svg");
 }
