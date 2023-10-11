@@ -1,0 +1,7 @@
+.favourites {
+	margin-bottom: 220px;
+}
+
+.favourites .arrivals__cards {
+	column-gap: 45px;
+}
