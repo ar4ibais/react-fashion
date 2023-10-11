@@ -1,0 +1,8 @@
+.arrivals {
+	margin-bottom: 140px;
+}
+
+.arrivals__cards {
+	display: flex;
+	justify-content: space-between;
+}
