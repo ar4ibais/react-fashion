@@ -1,17 +1,16 @@
 import styles from './Card.module.css';
-import cat01 from '../../img/categories/cat-01.jpg';
 import arrowLink from '../../img/icons/arrow.svg';
 
-const Card = () => {
+const Card = ({ title, image }) => {
     return (
         <div className={styles.card}>
             <a href="/" className={styles.card__imglink}>
-                <img className={styles.card__img} src={cat01} alt="Categorie" />
+                <img className={styles.card__img} src={image} alt="Categorie" />
             </a>
             <div className={styles.card__body}>
                 <div className={styles.card__text}>
                     <p className={styles.card__title}>
-                        Coats & Parkas
+                        {title}
                     </p>
                     <span className={styles.card__subtitle}>
                         Explore Now!
