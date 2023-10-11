@@ -3,7 +3,7 @@ import promoImg from '../../img/images/header-img.jpg'
 
 const Promo = () => {
     return (
-        <section className='Promo'>
+        <section className='promo'>
             <div className="container">
                 <div className="promo__content">
                     <div className="promo__text">
