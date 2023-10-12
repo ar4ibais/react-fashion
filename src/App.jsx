@@ -16,11 +16,11 @@ function App() {
       <Promo />
       <Brands />
       <Arrivals />
-      {/* <Sale /> */}
-      {/* <Favourites /> */}
-      {/* <Download /> */}
-      {/* <Contacts /> */}
-      {/* <Footer /> */}
+      <Sale />
+      <Favourites />
+      <Download />
+      <Contacts />
+      <Footer />
     </>
   )
 }

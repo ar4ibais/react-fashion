@@ -4,4 +4,11 @@
 
 .favourites .arrivals__cards {
 	column-gap: 45px;
+	flex-wrap: nowrap;
+}
+
+@media (max-width: 550px) {
+	.favourites {
+		margin-bottom: 70px;
+	}
 }

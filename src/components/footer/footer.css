@@ -55,3 +55,36 @@
 .footer__column-link {
 	color: #8e8e8e;
 }
+
+@media (max-width: 1200px) {
+	.footer__inner {
+		flex-direction: column;
+		row-gap: 30px;
+	}
+}
+
+@media (max-width: 768px) {
+	.footer {
+		padding: 70px 0;
+	}
+}
+
+@media (max-width: 600px) {
+	.footer__socials {
+		text-align: center;
+	}
+	.footer__text {
+		margin: 0 auto 30px;
+	}
+	.footer__social-icons {
+		justify-content: center;
+	}
+	.footer__columns {
+		flex-direction: column;
+		align-items: center;
+		row-gap: 30px;
+	}
+	.footer__column-item + .footer__column-item {
+		margin-top: 20px;
+	}
+}
