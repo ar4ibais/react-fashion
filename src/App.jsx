@@ -14,8 +14,8 @@ function App() {
     <>
       <Header />
       <Promo />
-      {/* <Brands /> */}
-      {/* <Arrivals /> */}
+      <Brands />
+      <Arrivals />
       {/* <Sale /> */}
       {/* <Favourites /> */}
       {/* <Download /> */}

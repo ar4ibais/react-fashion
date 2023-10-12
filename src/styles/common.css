@@ -36,3 +36,9 @@ body {
 	background-image: url(../img/icons/decor-yellow.svg);
 	z-index: -1;
 }
+
+@media (max-width: 768px) {
+	.title {
+		margin-bottom: 70px;
+	}
+}

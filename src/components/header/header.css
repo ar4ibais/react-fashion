@@ -99,6 +99,7 @@ a.header__nav-btn {
 		z-index: 2;
 	}
 	.header__nav.active {
+		overflow: hidden;
 		transform: translateY(0);
 		top: 10;
 		left: 0;

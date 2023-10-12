@@ -37,6 +37,7 @@
 	border-radius: 20px;
 	margin-bottom: 25px;
 	display: block;
+	width: 100%;
 }
 
 .card__body {
