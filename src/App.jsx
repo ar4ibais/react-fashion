@@ -14,13 +14,13 @@ function App() {
     <>
       <Header />
       <Promo />
-      <Brands />
-      <Arrivals />
-      <Sale />
-      <Favourites />
-      <Download />
-      <Contacts />
-      <Footer />
+      {/* <Brands /> */}
+      {/* <Arrivals /> */}
+      {/* <Sale /> */}
+      {/* <Favourites /> */}
+      {/* <Download /> */}
+      {/* <Contacts /> */}
+      {/* <Footer /> */}
     </>
   )
 }
